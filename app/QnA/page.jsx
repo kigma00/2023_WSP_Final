@@ -7,14 +7,16 @@ export default function QnA() {
     <>
       <div className="flex justify-between items-center">
         <div className="items-center">
-          <h1 className="text-3xl font-bold">Potato Market COMMUNITY</h1>
-          <p className="mb-4">Welcome to potato market community!</p>
+          <h1 className="text-3xl font-bold text-green-500">
+            QnA question to me!
+          </h1>
+          <p className="mb-4">Question and Answer</p>
         </div>
         <Link
           className="bg-green-200 text-lg font-bold px-4 py-2 rounded-md "
           href="/addTopic"
         >
-          생성
+          질문
         </Link>
       </div>
 
