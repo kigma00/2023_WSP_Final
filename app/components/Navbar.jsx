@@ -7,30 +7,33 @@ export default function Navbar() {
       <Link className="text-white text-lg font-bold" href="/">
         Goranie's
       </Link>
-      <Link
-        className="bg-green-200 text-lg font-bold px-4 py-2 rounded-md"
-        href="/Home"
-      >
-        Home
-      </Link>
-      <Link
-        className="bg-green-200 text-lg font-bold px-4 py-2 rounded-md"
-        href="/Team"
-      >
-        Team
-      </Link>
-      <Link
-        className="bg-green-200 text-lg font-bold px-4 py-2 rounded-md"
-        href="/Project"
-      >
-        Project
-      </Link>
-      <Link
-        className="bg-green-200 text-lg font-bold px-4 py-2 rounded-md"
-        href="/QnA"
-      >
-        Q&A
-      </Link>
+
+      <div>
+        <Link
+          className="bg-green-200 text-lg font-bold m-2 px-4 py-2 rounded-md"
+          href="/Home"
+        >
+          Home
+        </Link>
+        <Link
+          className="bg-green-200 text-lg font-bold m-2 px-4 py-2 rounded-md"
+          href="/Team"
+        >
+          Team
+        </Link>
+        <Link
+          className="bg-green-200 text-lg font-bold m-2 px-4 py-2 rounded-md"
+          href="/Project"
+        >
+          Project
+        </Link>
+        <Link
+          className="bg-green-200 text-lg font-bold m-2 px-4 py-2 rounded-md"
+          href="/QnA"
+        >
+          Q&A
+        </Link>
+      </div>
     </nav>
   )
 }
