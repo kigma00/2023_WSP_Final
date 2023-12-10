@@ -57,7 +57,7 @@ export default function Navbar() {
                 alt={session?.user?.name}
               />
               <span className="text-white font-bold">
-                {session?.user?.name}{' '}
+                {session?.user?.name}
               </span>
             </div>
           </>
