@@ -22,7 +22,7 @@ export default function EditTopicForm({ id, title, description }) {
       if (!res.ok) {
         throw new Error('Failed to update topic')
       }
-      router.push('/')
+      router.push('/QnA')
       router.refresh()
     } catch (error) {
       console.log(error)
