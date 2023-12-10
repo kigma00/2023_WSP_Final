@@ -16,8 +16,10 @@ export default function Team() {
           <div className="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
             <Image
               className="lg:h-72 md:h-48 w-full object-cover object-center"
-              src=""
+              src="/human.png"
               alt="card image"
+              width={300}
+              height={300}
             />
             <div className="font-bold text-center p-6 hover:bg-green-600 hover:text-white transition duration-300 ease-in">
               <Link href="https://github.com/kigma00/kigma00">김건희</Link>
@@ -28,8 +30,10 @@ export default function Team() {
           <div className="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
             <Image
               className="lg:h-72 md:h-48 w-full object-cover object-center"
-              src=""
+              src="/human.png"
               alt="card image"
+              width={300}
+              height={300}
             />
             <div className="font-bold text-center p-6 hover:bg-green-600 hover:text-white transition duration-300 ease-in">
               <Link href="https://github.com/kigma00/kigma00">김평안</Link>
@@ -40,8 +44,10 @@ export default function Team() {
           <div className="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
             <Image
               className="lg:h-72 md:h-48 w-full object-cover object-center"
-              src=""
+              src="/human.png"
               alt="card image"
+              width={300}
+              height={300}
             />
             <div className="font-bold text-center p-6 hover:bg-green-600 hover:text-white transition duration-300 ease-in">
               <Link href="https://github.com/kigma00/kigma00">박준형</Link>
@@ -52,8 +58,10 @@ export default function Team() {
           <div className="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
             <Image
               className="lg:h-72 md:h-48 w-full object-cover object-center"
-              src=""
+              src="/human.png"
               alt="card image"
+              width={300}
+              height={300}
             />
             <div className="font-bold text-center p-6 hover:bg-green-600 hover:text-white transition duration-300 ease-in">
               <Link href="https://github.com/kigma00/kigma00">신건훈</Link>

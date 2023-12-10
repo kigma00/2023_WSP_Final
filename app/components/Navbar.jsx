@@ -39,10 +39,9 @@ export default function Navbar() {
         >
           Q&A
         </Link>
-
         {status === 'authenticated' ? (
-          // 로그인된 상태
           <>
+            {/* 로그인된 상태 */}
             <button
               onClick={() => signOut()}
               className="bg-green-600 hover:bg-green-700 text-white px-4 py-2 rounded-md text-lg font-bold"
@@ -58,16 +57,16 @@ export default function Navbar() {
                 alt={session?.user?.name}
               />
               <span className="text-white font-bold">
-                {session?.user?.name}
+                {session?.user?.name}{' '}
               </span>
             </div>
           </>
         ) : (
-          // 로그인 안된 상태
           <>
+            {/* 로그인 안된 상태 */}
             <Link
-              className="bg-green-600 hover:bg-green-700 text-white px-4 py-2 rounded-md text-lg font-bold"
               href="/signIn"
+              className="bg-green-600 hover:bg-green-700 text-white px-4 py-2 rounded-md text-lg font-bold"
             >
               Sign In
             </Link>
