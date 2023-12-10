@@ -90,9 +90,7 @@ export default function Project() {
                 <h2 class="text-lg text-green-900 font-medium title-font mb-4">
                   Q & A
                 </h2>
-                <p class="leading-relaxed text-base">
-                  Potato Market의 Q & A 입니다.
-                </p>
+                <p class="leading-relaxed text-base">Potato Market의 Q & A</p>
               </div>
             </div>
           </div>
