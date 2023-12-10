@@ -19,7 +19,7 @@ export default function QnA() {
           질문
         </Link>
       </div>
-      {/* <TopicsList /> */}
+      <TopicsList />
     </>
   )
 }
