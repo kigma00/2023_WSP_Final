@@ -9,6 +9,6 @@ const logSchema = new Schema(
   }
 )
 
-const Log = mongoose.models.Log || mongoose.model('Log', logSchema)
+const User = mongoose.models.User || mongoose.model('Log', logSchema)
 
 export default Log
