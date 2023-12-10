@@ -1,3 +1,5 @@
+import Image from 'next/image'
+
 export default function Project() {
   return (
     <>
@@ -25,7 +27,7 @@ export default function Project() {
           <div class="flex flex-wrap -m-4">
             <div class=" md:w-1/2 p-4">
               <div class="bg-green-100 p-6 rounded-lg">
-                <img
+                <Image
                   class="h-40 rounded w-full object-cover object-center mb-6"
                   src="https://dummyimage.com/720x400"
                   alt="content"
@@ -43,7 +45,7 @@ export default function Project() {
             </div>
             <div class=" md:w-1/2 p-4">
               <div class="bg-green-100 p-6 rounded-lg">
-                <img
+                <Image
                   class="h-40 rounded w-full object-cover object-center mb-6"
                   src="https://dummyimage.com/721x401"
                   alt="content"
@@ -61,7 +63,7 @@ export default function Project() {
             </div>
             <div class=" md:w-1/2 p-4">
               <div class="bg-green-100 p-6 rounded-lg">
-                <img
+                <Image
                   class="h-40 rounded w-full object-cover object-center mb-6"
                   src="https://dummyimage.com/722x402"
                   alt="content"
@@ -79,7 +81,7 @@ export default function Project() {
             </div>
             <div class=" md:w-1/2 p-4">
               <div class="bg-green-100 p-6 rounded-lg">
-                <img
+                <Image
                   class="h-40 rounded w-full object-cover object-center mb-6"
                   src="https://dummyimage.com/723x403"
                   alt="content"
