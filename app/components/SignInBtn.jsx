@@ -17,6 +17,7 @@ export default function SignInBtn() {
           Sign in with Google
         </span>
       </button>
+
       <button
         onClick={() => {
           signIn('github')
