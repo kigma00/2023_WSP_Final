@@ -29,7 +29,7 @@ export default function Project() {
               <div class="bg-green-100 p-6 rounded-lg">
                 <Image
                   class="h-40 rounded w-full object-cover object-center mb-6"
-                  src="https://dummyimage.com/720x400"
+                  src=""
                   alt="content"
                 />
                 <h3 class="tracking-widest text-green-500 text-xs font-medium title-font">
@@ -47,7 +47,7 @@ export default function Project() {
               <div class="bg-green-100 p-6 rounded-lg">
                 <Image
                   class="h-40 rounded w-full object-cover object-center mb-6"
-                  src="https://dummyimage.com/721x401"
+                  src=""
                   alt="content"
                 />
                 <h3 class="tracking-widest text-green-500 text-xs font-medium title-font">
@@ -65,7 +65,7 @@ export default function Project() {
               <div class="bg-green-100 p-6 rounded-lg">
                 <Image
                   class="h-40 rounded w-full object-cover object-center mb-6"
-                  src="https://dummyimage.com/722x402"
+                  src=""
                   alt="content"
                 />
                 <h3 class="tracking-widest text-green-500 text-xs font-medium title-font">
@@ -83,7 +83,7 @@ export default function Project() {
               <div class="bg-green-100 p-6 rounded-lg">
                 <Image
                   class="h-40 rounded w-full object-cover object-center mb-6"
-                  src="https://dummyimage.com/723x403"
+                  src=""
                   alt="content"
                 />
                 <h3 class="tracking-widest text-green-500 text-xs font-medium title-font">

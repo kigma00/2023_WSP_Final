@@ -16,7 +16,7 @@ export default function Team() {
           <div className="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
             <Image
               className="lg:h-72 md:h-48 w-full object-cover object-center"
-              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ-4zwV8AcEf0e85kw3Vt6aJQ7vtxXWfLloug&usqp=CAU"
+              src=""
               alt="card image"
             />
             <div className="font-bold text-center p-6 hover:bg-green-600 hover:text-white transition duration-300 ease-in">
@@ -28,7 +28,7 @@ export default function Team() {
           <div className="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
             <Image
               className="lg:h-72 md:h-48 w-full object-cover object-center"
-              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ-4zwV8AcEf0e85kw3Vt6aJQ7vtxXWfLloug&usqp=CAU"
+              src=""
               alt="card image"
             />
             <div className="font-bold text-center p-6 hover:bg-green-600 hover:text-white transition duration-300 ease-in">
@@ -40,7 +40,7 @@ export default function Team() {
           <div className="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
             <Image
               className="lg:h-72 md:h-48 w-full object-cover object-center"
-              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ-4zwV8AcEf0e85kw3Vt6aJQ7vtxXWfLloug&usqp=CAU"
+              src=""
               alt="card image"
             />
             <div className="font-bold text-center p-6 hover:bg-green-600 hover:text-white transition duration-300 ease-in">
@@ -52,7 +52,7 @@ export default function Team() {
           <div className="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
             <Image
               className="lg:h-72 md:h-48 w-full object-cover object-center"
-              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ-4zwV8AcEf0e85kw3Vt6aJQ7vtxXWfLloug&usqp=CAU"
+              src=""
               alt="card image"
             />
             <div className="font-bold text-center p-6 hover:bg-green-600 hover:text-white transition duration-300 ease-in">
