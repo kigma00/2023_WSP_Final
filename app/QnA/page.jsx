@@ -1,8 +1,15 @@
-import Image from 'next/image'
+import { getServerSession } from 'next-auth'
+import { authOptions } from '../api/auth/[...nextauth]/route'
+import { redirect } from 'next/navigation'
 import TopicsList from '../components/TopicsList'
-import Link from 'next/link'
 
-export default function QnA() {
+export default async function QnA() {
+  const session = await getServerSession(authOptions)
+
+  if (!session) {
+    redirect('/signIn')
+  }
+
   return (
     <>
       <div className="flex justify-between items-center">
