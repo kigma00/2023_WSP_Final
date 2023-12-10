@@ -1,4 +1,5 @@
 import Link from 'next/link'
+import Image from 'next/image'
 
 export default function Team() {
   return (
@@ -13,7 +14,7 @@ export default function Team() {
       <div className="flex">
         <div className="p-4 sm:w-1/2 lg:w-1/3">
           <div className="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
-            <img
+            <Image
               className="lg:h-72 md:h-48 w-full object-cover object-center"
               src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ-4zwV8AcEf0e85kw3Vt6aJQ7vtxXWfLloug&usqp=CAU"
               alt="card image"
@@ -25,7 +26,7 @@ export default function Team() {
         </div>
         <div className="p-4 sm:w-1/2 lg:w-1/3">
           <div className="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
-            <img
+            <Image
               className="lg:h-72 md:h-48 w-full object-cover object-center"
               src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ-4zwV8AcEf0e85kw3Vt6aJQ7vtxXWfLloug&usqp=CAU"
               alt="card image"
@@ -37,7 +38,7 @@ export default function Team() {
         </div>
         <div className="p-4 sm:w-1/2 lg:w-1/3">
           <div className="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
-            <img
+            <Image
               className="lg:h-72 md:h-48 w-full object-cover object-center"
               src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ-4zwV8AcEf0e85kw3Vt6aJQ7vtxXWfLloug&usqp=CAU"
               alt="card image"
@@ -49,7 +50,7 @@ export default function Team() {
         </div>
         <div className="p-4 sm:w-1/2 lg:w-1/3">
           <div className="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
-            <img
+            <Image
               className="lg:h-72 md:h-48 w-full object-cover object-center"
               src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ-4zwV8AcEf0e85kw3Vt6aJQ7vtxXWfLloug&usqp=CAU"
               alt="card image"
