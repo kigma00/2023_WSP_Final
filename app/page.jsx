@@ -7,7 +7,7 @@ export default function Home() {
       <div className="flex justify-between items-center">
         <div className="items-center">
           <h1 className="text-3xl font-bold text-green-500">
-            Welcome To Goranie's
+            Welcome To Goranie
           </h1>
           <p className="mb4 ">How to contect me!</p>
         </div>
