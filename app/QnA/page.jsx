@@ -2,6 +2,7 @@ import { getServerSession } from 'next-auth'
 import { authOptions } from '../api/auth/[...nextauth]/route'
 import { redirect } from 'next/navigation'
 import TopicsList from '../components/TopicsList'
+import Link from 'next/link'
 
 export default async function QnA() {
   const session = await getServerSession(authOptions)

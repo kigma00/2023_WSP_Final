@@ -15,24 +15,28 @@ export default function Home() {
       </div>
 
       <div className="flex ">
-        <div className="p-4 sm:w-1/2 lg:w-1/3">
-          <div className="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
+        <div className="p-4 sm:w-full lg:w-full">
+          <div className="h-full w-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
             <Image
-              className="lg:h-72 md:h-48 w-full object-cover object-center"
-              src=""
+              className="lg:h-72 md:h-48 md:w-full object-cover object-center"
+              src="/github.png"
               alt="card image"
+              width={300}
+              height={300}
             />
             <div className="text-center p-6 hover:bg-green-600 hover:text-white transition duration-300 ease-in">
               <Link href="https://github.com/kigma00/kigma00">Github</Link>
             </div>
           </div>
         </div>
-        <div className="p-4 sm:w-1/2 lg:w-1/3">
-          <div className="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
+        <div className="p-4 sm:w-full lg:w-full">
+          <div className="h-full w-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
             <Image
-              className="lg:h-72 md:h-48 w-full object-cover object-center"
-              src=""
+              className="lg:h-72 md:h-48 md:w-full object-cover object-center"
+              src="/notion.png"
               alt="card image"
+              width={300}
+              height={300}
             />
             <div className="text-center p-6 hover:bg-green-600 hover:text-white transition duration-300 ease-in">
               <Link href="https://www.notion.so/d71746b790d74ced9d89d4dd7a24aa6a?pvs=4">
@@ -41,13 +45,14 @@ export default function Home() {
             </div>
           </div>
         </div>
-
-        <div className="p-4 sm:w-1/2 lg:w-1/3">
-          <div className="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
+        <div className="p-4 sm:w-full lg:w-full">
+          <div className="h-full w-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
             <Image
-              className="lg:h-72 md:h-48 w-full object-cover object-center"
-              src=""
+              className="lg:h-72 md:h-48 md:w-full object-cover object-center"
+              src="/tistory.png"
               alt="card image"
+              width={300}
+              height={300}
             />
             <div className="text-center p-6 hover:bg-green-600 hover:text-white transition duration-300 ease-in">
               <Link href="https://hi-bald-person.tistory.com/">Tistory</Link>
