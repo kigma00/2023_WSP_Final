@@ -7,7 +7,7 @@ const inter = Inter({ subsets: ['latin'] })
 
 export const metadata = {
   title: 'Goranie',
-  description: 'Introduce goranie',
+  description: 'Goranie Home',
 }
 
 export default function RootLayout({ children }) {
@@ -15,7 +15,7 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body className={inter.className}>
         <NextAuthProvider>
-          <div className="max-w-4xl mx-auto p-4">
+          <div className="max-w-5xl mx-auto p-4">
             <Navbar />
             <div className="mt-8">{children}</div>
           </div>
