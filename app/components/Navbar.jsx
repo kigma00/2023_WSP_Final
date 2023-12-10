@@ -1,12 +1,12 @@
 'use client'
 
-import { useSession, signOut } from 'next-auth/react'
+import { signOut, useSession } from 'next-auth/react'
 import Image from 'next/image'
 import Link from 'next/link'
 import React from 'react'
 
 export default function Navbar() {
-  const { status, data: session } = useSession()
+  const { status, date: session } = useSession
 
   return (
     <nav className="flex justify-between items-center bg-green-900 px-8 py-3">
@@ -39,9 +39,9 @@ export default function Navbar() {
         >
           Q&A
         </Link>
+
         {status === 'authenticated' ? (
           <>
-            {/* 로그인된 상태 */}
             <button
               onClick={() => signOut()}
               className="bg-green-600 hover:bg-green-700 text-white px-4 py-2 rounded-md text-lg font-bold"
@@ -62,15 +62,12 @@ export default function Navbar() {
             </div>
           </>
         ) : (
-          <>
-            {/* 로그인 안된 상태 */}
-            <Link
-              href="/signIn"
-              className="bg-green-600 hover:bg-green-700 text-white px-4 py-2 rounded-md text-lg font-bold"
-            >
-              Sign In
-            </Link>
-          </>
+          <Link
+            href="/signIn"
+            className="bg-green-600 hover:bg-green-700 text-white px-4 py-2 rounded-md text-lg font-bold"
+          >
+            Sign In
+          </Link>
         )}
       </div>
     </nav>
