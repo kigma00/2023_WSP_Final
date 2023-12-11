@@ -22,7 +22,7 @@ export default function Team() {
               height={300}
             />
             <div className="font-bold text-center p-6 hover:bg-green-600 hover:text-white transition duration-300 ease-in">
-              <Link href="https://github.com/kigma00/kigma00">김건희</Link>
+              <Link href="https://2023-wsp-final.vercel.app">김건희</Link>
             </div>
           </div>
         </div>
@@ -36,7 +36,7 @@ export default function Team() {
               height={300}
             />
             <div className="font-bold text-center p-6 hover:bg-green-600 hover:text-white transition duration-300 ease-in">
-              <Link href="https://github.com/kigma00/kigma00">김평안</Link>
+              <Link href="https://introduce1.vercel.app/">김평안</Link>
             </div>
           </div>
         </div>
@@ -50,7 +50,9 @@ export default function Team() {
               height={300}
             />
             <div className="font-bold text-center p-6 hover:bg-green-600 hover:text-white transition duration-300 ease-in">
-              <Link href="https://github.com/kigma00/kigma00">박준형</Link>
+              <Link href="https://joon-hyeong-portfolio.vercel.app/">
+                박준형
+              </Link>
             </div>
           </div>
         </div>
@@ -64,7 +66,7 @@ export default function Team() {
               height={300}
             />
             <div className="font-bold text-center p-6 hover:bg-green-600 hover:text-white transition duration-300 ease-in">
-              <Link href="https://github.com/kigma00/kigma00">신건훈</Link>
+              <Link href="https://portpolio1.vercel.app/">신건훈</Link>
             </div>
           </div>
         </div>

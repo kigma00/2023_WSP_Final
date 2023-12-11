@@ -34,7 +34,9 @@ export default function Project() {
               <div class="bg-green-100 p-6 rounded-lg">
                 <Image
                   class="h-40 rounded w-full object-cover object-center mb-6"
-                  src=""
+                  src="/product.png"
+                  width={400}
+                  height={300}
                   alt="content"
                 />
                 <h3 class="tracking-widest text-green-500 text-xs font-medium title-font">
@@ -52,7 +54,9 @@ export default function Project() {
               <div class="bg-green-100 p-6 rounded-lg">
                 <Image
                   class="h-40 rounded w-full object-cover object-center mb-6"
-                  src=""
+                  src="/community.png"
+                  width={400}
+                  height={300}
                   alt="content"
                 />
                 <h3 class="tracking-widest text-green-500 text-xs font-medium title-font">
@@ -70,7 +74,9 @@ export default function Project() {
               <div class="bg-green-100 p-6 rounded-lg">
                 <Image
                   class="h-40 rounded w-full object-cover object-center mb-6"
-                  src=""
+                  src="/news.png"
+                  width={400}
+                  height={300}
                   alt="content"
                 />
                 <h3 class="tracking-widest text-green-500 text-xs font-medium title-font">
@@ -88,7 +94,9 @@ export default function Project() {
               <div class="bg-green-100 p-6 rounded-lg">
                 <Image
                   class="h-40 rounded w-full object-cover object-center mb-6"
-                  src=""
+                  src="/QnA.png"
+                  width={400}
+                  height={300}
                   alt="content"
                 />
                 <h3 class="tracking-widest text-green-500 text-xs font-medium title-font">
